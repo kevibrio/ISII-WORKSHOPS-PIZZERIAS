@@ -5,6 +5,7 @@ package ec.edu.espol.workshops;
 
 public class Library {
     public boolean someLibraryMethod() {
+    	System.out.println("Hola Mundo");
         return true;
     }
 }
