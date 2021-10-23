@@ -1,6 +1,13 @@
 package ec.edu.espol.workshops;
 
 import java.util.Scanner;
+/**
+ * Una clase para representar círculos situados sobre el plano.
+ * Cada círculo queda determinado por su radio junto con las 
+ * coordenadas de su  centro.
+ * @version 1.2, 24/12/04
+ * @author Rafa Caballero
+ */
 
 public class CarInsurance {
 	
@@ -26,7 +33,7 @@ public class CarInsurance {
 		return false;	
 	}
 	
-	public static boolean esNumeroPositivo(String str) {
+	public static boolean esNumeroPositivo(String str){
 		return  str.matches("\\d*(\\.\\d+)?");
 	}
 	
@@ -70,8 +77,8 @@ public class CarInsurance {
 				}
 			}	
 			//edad = Integer.parseInt(edadStr);  
-			cliente.setEdad(edad);
-			entrada.nextLine();
+				cliente.setEdad(edad);
+				entrada.nextLine();
 			System.out.println("Ingrese el estado civil (Soltero/Casado): \n");
 			estadoCivil = entrada.nextLine();	
 			salir = false;
@@ -108,6 +115,6 @@ public class CarInsurance {
 			System.out.println("Usted puede tener una prima de $" + prima.calcularPrima(true) + " dólares.");
 			
 		}
-	}	
+	}
 }
 
