@@ -2,11 +2,8 @@ package ec.edu.espol.workshops;
 
 import java.util.Scanner;
 /**
- * Una clase para representar círculos situados sobre el plano.
- * Cada círculo queda determinado por su radio junto con las 
- * coordenadas de su  centro.
- * @version 1.2, 24/12/04
- * @author Rafa Caballero
+ * Clase que representa a la Aseguradora de carros.
+ * @author Bryan Loor 
  */
 
 public class CarInsurance {
