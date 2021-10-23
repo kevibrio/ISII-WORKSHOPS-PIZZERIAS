@@ -2,12 +2,14 @@ package ec.edu.espol.workshops;
 
 import java.util.Scanner;
 /**
+
  * Clase que representa a la Aseguradora de carros.
  * @author Bryan Loor 
+
  */
 
 public class CarInsurance {
-	
+
 	public static boolean tieneLicencia(char entrada) {
 		if(entrada == 'S') return true;
 		return false;
