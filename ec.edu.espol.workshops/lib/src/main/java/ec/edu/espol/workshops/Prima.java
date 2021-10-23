@@ -31,6 +31,7 @@ public class Prima {
 				this.prima += 1500; 
 			}
 			return this.prima;
+		
 		}catch(Error error) {
 			this.prima = -1;
 			return this.prima;

@@ -6,6 +6,10 @@ public class Cliente {
 	private int edad;
 	private Sexo sexo;
 	private EstadoCivil estadoCivil;
+	
+	/**
+	 * 
+	 */
 	public Cliente(){}
 	
 	public Cliente(int edad , Sexo sexo , EstadoCivil estado)
