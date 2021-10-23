@@ -10,7 +10,8 @@ public class Prima {
 	
 	public int  calcularPrima(boolean driverLicense ){
 		try {
-			if(driverLicense == false) {
+			//Correccion PMD
+			if(!driverLicense) {
 				this.prima = -1;
 				return this.prima;
 			}
