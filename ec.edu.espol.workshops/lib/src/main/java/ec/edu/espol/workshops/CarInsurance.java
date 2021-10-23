@@ -9,6 +9,7 @@ public class CarInsurance {
 		return false;
 	}
 	
+
 	public static boolean tieneEntradaValida(char entrada) {
 		if(entrada == 'S' || entrada == 'N') return true;
 		return false;	
@@ -20,7 +21,7 @@ public class CarInsurance {
 	}
 	
 	public static boolean tieneEntradaValidaEstadoCivil(String entrada) {
-		if(entrada.contentEquals("Soltero") || entrada.contentEquals("Casado")) {
+		if( entrada.contentEquals("Soltero") || entrada.contentEquals("Casado") ) {
 			return true;
 		}
 		return false;	
