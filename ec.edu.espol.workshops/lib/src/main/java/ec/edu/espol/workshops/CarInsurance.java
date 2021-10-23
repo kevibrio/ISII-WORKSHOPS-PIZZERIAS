@@ -5,12 +5,11 @@ import java.util.Scanner;
  * Una clase para representar círculos situados sobre el plano.
  * Cada círculo queda determinado por su radio junto con las 
  * coordenadas de su  centro.
- * @version 1.2, 24/12/04
  * @author Rafa Caballero
  */
 
 public class CarInsurance {
-	
+
 	public static boolean tieneLicencia(char entrada) {
 		return entrada == 'S';
 	}
