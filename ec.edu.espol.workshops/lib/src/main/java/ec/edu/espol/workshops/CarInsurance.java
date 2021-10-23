@@ -1,6 +1,12 @@
 package ec.edu.espol.workshops;
-import java.util.logging.Logger;
+
 import java.util.Scanner;
+
+import java.util.logging.Logger;
+
+/**
+ * 
+ */
 
 public class CarInsurance {
     private static final Logger LOGGER = Logger.getLogger(CarInsurance.class.getName());
