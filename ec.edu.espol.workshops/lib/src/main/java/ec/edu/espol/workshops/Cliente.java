@@ -8,6 +8,12 @@ public class Cliente {
 	private EstadoCivil estadoCivil;
 	public Cliente(){}
 	
+	public Cliente(Cliente cliente) {
+		this.edad= cliente.edad;
+		this.sexo= cliente.sexo;
+		this.estadoCivil= cliente.estadoCivil;
+	  }
+	
 	public Cliente(int edad , Sexo sexo , EstadoCivil estado)
 	{
 		this.edad=edad;
