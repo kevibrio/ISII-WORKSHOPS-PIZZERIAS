@@ -1,5 +1,5 @@
 package ec.edu.espol.workshops;
-
+import java.util.logging.Logger;
 import java.util.Scanner;
 /**
 
@@ -15,6 +15,8 @@ import java.util.logging.Logger;
  */
 
 public class CarInsurance {
+
+	private static final Logger LOGGER = Logger.getLogger(CarInsurance.class.getName());
 
 	public static boolean tieneLicencia(char entrada) {
 		return entrada == 'S';
@@ -38,6 +40,7 @@ public class CarInsurance {
 	}
 	
 	public static void main(String []args){
+		
 		Scanner entrada= new Scanner(System.in);
 		boolean salir = false;
 		char licencia, sexo;
