@@ -20,6 +20,7 @@ public class CarInsurance {
 		return entrada == 'S';
 	}
 	
+
 	public static boolean tieneEntradaValida(char entrada) {
 		return entrada == 'S' || entrada == 'N';
 	}

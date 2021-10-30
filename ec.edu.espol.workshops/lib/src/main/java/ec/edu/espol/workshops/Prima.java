@@ -3,8 +3,9 @@ package ec.edu.espol.workshops;
 public class Prima {
 	private Cliente cliente; 
 	private int prima = 500;
+	
 	public Prima(Cliente cliente) {
-		this.cliente=cliente;
+		this.cliente= new Cliente(cliente);
 	}
 	
 	
