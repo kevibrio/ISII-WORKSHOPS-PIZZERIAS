@@ -16,7 +16,7 @@ public class Prima {
 				this.prima = -1;
 				return this.prima;
 			}
-			if(this.cliente.getEdad() >= 80) {
+			if(this.cliente.getEdad() > 80) {
 				this.prima = -1;
 				return this.prima;
 			}
