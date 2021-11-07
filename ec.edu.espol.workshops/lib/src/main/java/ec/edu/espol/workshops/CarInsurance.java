@@ -2,18 +2,9 @@ package ec.edu.espol.workshops;
 import java.util.logging.Logger;
 import java.util.Scanner;
 /**
-
  * Clase que representa a la Aseguradora de carros.
  * @author Bryan Loor 
-
  */
-
-import java.util.logging.Logger;
-
-/**
- * 
- */
-
 public class CarInsurance {
 
 	private static final Logger LOGGER = Logger.getLogger(CarInsurance.class.getName());
@@ -123,7 +114,7 @@ public class CarInsurance {
 				cliente.setSexo(Sexo.Masculino);
 			}
 		    Prima prima = new Prima(cliente);
-		    System.out.println("Usted puede tener una prima de $" + prima.calcularPrima(true) + " d�lares.");
+		    System.out.println("Usted puede tener una prima de $" + prima.calcularPrima(true) + " dolares.");
 			
 		}
 	}

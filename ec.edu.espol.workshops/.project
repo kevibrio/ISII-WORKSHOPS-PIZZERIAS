@@ -3,6 +3,7 @@
 	<name>ec.edu.espol.workshops</name>
 	<comment>Project ec.edu.espol.workshops created by Buildship.</comment>
 	<projects>
+		<project>lib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -7,7 +7,16 @@ public class Prima {
 	public Prima(Cliente cliente) {
 		this.cliente= new Cliente(cliente);
 	}
+	public Prima() {
+	}
 	
+	public Cliente getCliente() {
+		return this.cliente;
+	}
+	
+	public void setCliente(Cliente cliente) {
+		this.cliente=cliente;
+	}
 	
 	public int  calcularPrima(boolean driverLicense ){
 		try {
