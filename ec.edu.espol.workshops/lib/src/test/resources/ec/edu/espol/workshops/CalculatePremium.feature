@@ -10,6 +10,6 @@
  | 24 | Soltero | M | S | 2000 |
  | 81 | Casado | M | N | -1 |
  | 46 | Soltero | M | S | 400 |
- | 30 | Soltero | F | S | 100 |
+ | 30 | Soltero | F | S | 300 |
  | 40 | Casado | M | S | 300 |
  | 95 | Casado | M | S | -1 |
