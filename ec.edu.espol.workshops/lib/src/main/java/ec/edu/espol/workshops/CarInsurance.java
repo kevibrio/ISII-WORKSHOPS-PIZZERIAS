@@ -7,13 +7,6 @@ import java.util.Scanner;
  * @author Bryan Loor 
 
  */
-
-import java.util.logging.Logger;
-
-/**
- * 
- */
-
 public class CarInsurance {
 
 	private static final Logger LOGGER = Logger.getLogger(CarInsurance.class.getName());
