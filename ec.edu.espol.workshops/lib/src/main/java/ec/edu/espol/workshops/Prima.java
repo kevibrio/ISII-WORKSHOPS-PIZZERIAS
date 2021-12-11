@@ -2,7 +2,7 @@ package ec.edu.espol.workshops;
 
 public class Prima {
 	private Cliente cliente; 
-	private int prima = 500;
+	private int prima = 600;
 	
 	public Prima(Cliente cliente) {
 		this.cliente= new Cliente(cliente);
