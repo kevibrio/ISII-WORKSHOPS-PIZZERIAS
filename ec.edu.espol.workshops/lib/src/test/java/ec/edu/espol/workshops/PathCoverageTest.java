@@ -89,10 +89,10 @@ public class PathCoverageTest {
 		    Prima prima = new Prima(cliente);
 			assertEquals(400,prima.calcularPrima(true));
 	   }
-		/*
+		
 		@Test public void testCMB06() {
 	   	 Cliente cliente = new Cliente(79,Sexo.Femenino,EstadoCivil.Soltero);
 		    Prima prima = new Prima(cliente);
 			assertEquals(300,prima.calcularPrima(true));
-	    }	*/
+	    }
 }
