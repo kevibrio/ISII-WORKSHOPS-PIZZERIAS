@@ -31,28 +31,31 @@ public class StatementCoverageTest {
 	/**
 	 *	(F) No tiene licencia 
 	 *	(F) Edad > 80
-	 *  (T) EstadoCivil = Casado || Sexo = Femenino
+	 *  (F) EstadoCivil = Casado || Sexo = Femenino
 	 *	(F) Edad >= 45 && Edad() < 65
 	 *	(F) Sexo = Masculino && EstadoCivil = Soltero && Edad < 25
 	 */		
 	@Test
 	public void testCMB01() {
-	   	 Cliente cliente = new Cliente(18,Sexo.Femenino,EstadoCivil.Soltero);
-		    Prima prima = new Prima(cliente);
-			assertEquals(300,prima.calcularPrima(true));
+		Cliente cliente = new Cliente(30,Sexo.Masculino,EstadoCivil.Soltero);
+	    Prima prima = new Prima(cliente);
+		assertEquals(500,prima.calcularPrima(true));
 	}
 	
 	/**
 	 *	(F) No tiene licencia 
 	 *	(F) Edad > 80
-	 *  (F) EstadoCivil = Casado || Sexo = Femenino
+	 *  (T) EstadoCivil = Casado || Sexo = Femenino
 	 *	(T) Edad >= 45 && Edad() < 65
 	 *	(F) Sexo = Masculino && EstadoCivil = Soltero && Edad < 25
 	 */	
 	@Test public void testCMB02() {
-   	Cliente cliente = new Cliente(50,Sexo.Masculino,EstadoCivil.Soltero);
-	    Prima prima = new Prima(cliente);
-		assertEquals(400,prima.calcularPrima(true));
+		 Cliente cliente = new Cliente();
+		 cliente.setEdad(50);
+		 cliente.setEstadoCivil(EstadoCivil.Casado);
+		 cliente.setSexo(Sexo.Masculino);
+		 Prima prima = new Prima(cliente);
+		 assertEquals(200,prima.calcularPrima(true));
    }
 	
 	/**
@@ -65,17 +68,7 @@ public class StatementCoverageTest {
 	@Test 
 	public void testCMB03() {
 	   	 Cliente cliente = new Cliente(20,Sexo.Masculino,EstadoCivil.Soltero);
-		    Prima prima = new Prima(cliente);
-			assertEquals(2000,prima.calcularPrima(true));
+		 Prima prima = new Prima(cliente);
+		 assertEquals(2000,prima.calcularPrima(true));
     }
-			
-	@Test 
-	public void testCLI01() {
-		 Cliente cliente = new Cliente();
-		 cliente.setEdad(70);
-		 cliente.setEstadoCivil(EstadoCivil.Soltero);
-		 cliente.setSexo(Sexo.Masculino);
-	   	 assertNotNull(cliente.toString());
-	}
-
 }

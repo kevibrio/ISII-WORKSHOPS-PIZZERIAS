@@ -44,9 +44,10 @@ public class Cliente {
 	public void setEstadoCivil(EstadoCivil estadoCivil) {
 		this.estadoCivil=estadoCivil;
 	}
-
+	
+	/*
 	@Override
 	public String toString() {
 		return  " con edad de " + edad + " años, sexo " + sexo + " y estado civil " + estadoCivil + ".";
-	}
+	}*/
 }
